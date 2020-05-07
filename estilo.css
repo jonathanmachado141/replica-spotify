@@ -3,12 +3,13 @@ html, body, .capa{
 	height: 100%;
 }
 body{
-	border: 1px solid red;
+	
 	background: url('imagens/capa.png'),
 	             url('imagens/ruido.png'),
 	             linear-gradient(50deg,#ff4169,#7c26f8);
 	background-attachment: fixed;
-	font-family: Arial, ;
+	font-family: helvetica, Arial,sans-serif;
+	overflow-x: hidden;
 }
 /*---BARRA DE NAVEGAÇÃO---*/
 .img-logo{
@@ -94,6 +95,34 @@ nav.navbar-transparente {
 	color:black;	
 }
 
+.rotacionar{
+	transform: rotate(30deg);
+	-ms-transform:rotate(30deg);
+	-webkit-transform: rotate(30deg);
+	padding-left: 80px;
+}
+
+
+/*--- secao e servico ---*/
+
+#servicos{
+	background:white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.albuns{
+	padding: 10px 0px 10px 0px;
+}
+
+/*--- recursos ---*/
+
+#recursos{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: white;
+}
+
 /*------TIPOGRAFIA------*/
 h1{
 	font-size: 90px;
@@ -101,4 +130,24 @@ h1{
 	letter-spacing: -0.05em;
 	margin-bottom: 50px;
 
+}
+
+h2{
+	font-size: 50px;
+	font-weight: 700;
+	letter-spacing:-0.04em; 
+}
+
+h3{
+	font-size: 35px;
+	font-weight: 700;
+	letter-spacing:-0.04em; 
+}
+
+#servicos h2, #servicos h3{
+	color: #7c25f8;
+}
+
+#recursos h3{
+	color: #9bf0e1;
 }
