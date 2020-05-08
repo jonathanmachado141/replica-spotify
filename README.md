@@ -1,2 +1,3 @@
 # replica-spotify
-uma replica da pagina spotify usando bootstrap 
+uma replica da pagina spotify usando bootstrap 3
+
